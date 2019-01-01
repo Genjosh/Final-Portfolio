@@ -15,9 +15,6 @@ class App extends Component {
       <Navv/>
       <Tron/>
       <Projects/> <Recent/>
-      <br/>
-      <br/>
-      {/* <About/> */}
 
       </div>
       
