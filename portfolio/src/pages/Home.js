@@ -1,10 +1,9 @@
 import React, { Component,} from 'react' 
-import './App.css';
-import Navv from './components/NavBar';
-import Tron from './components/Jumbotron';
-import Projects from './components/projects';
-import Recent from './components/Recent';
-import Contact from './pages/Contact';
+import '../App.css';
+import Navv from '../components/NavBar';
+import Tron from '../components/Jumbotron';
+import Projects from '../components/projects';
+import Recent from '../components/Recent';
 
 
 class App extends Component {
@@ -17,7 +16,6 @@ class App extends Component {
       <Projects/> <Recent/>
       <br/>
       <br/>
-      {/* <About/> */}
 
       </div>
       
