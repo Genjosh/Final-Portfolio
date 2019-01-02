@@ -25,7 +25,10 @@ export default class Navv extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/components/">Contact</NavLink>
+                <NavLink href="/Contact">Contact</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/About">About</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/Genjosh" >GitHub</NavLink>

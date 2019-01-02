@@ -8,7 +8,6 @@ import Contact from './pages/Contact'
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'reactstrap';
-import AboutBox from './components/AboutBox';
 
 const routing = (
     <Router>
