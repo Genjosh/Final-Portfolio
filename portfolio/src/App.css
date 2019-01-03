@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-image: url("./components/images/wallpaper.jpg")
+  background-image: url("./components/images/wallpaper.jpg");
+  align-self: center;
+  align-content: center;
 }
 
 
@@ -21,8 +23,9 @@
 }
 
 .container {
-  float: left;
   max-width: 50%;
   min-width: 5%
 }
+
+
 

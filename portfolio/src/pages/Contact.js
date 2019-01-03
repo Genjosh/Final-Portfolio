@@ -1,4 +1,5 @@
-import React, { Component,} from 'react' 
+import React, { Component,} from 'react';
+import {Container, } from 'reactstrap';
 import '../App.css';
 import Navv from '../components/NavBar';
 import ContactForm from '../components/ContactForm';
@@ -8,11 +9,13 @@ import ContactForm from '../components/ContactForm';
 class Contact extends Component {
   render() {
     return (
-      <div className="App">
+      <Container className="App">
       
       <Navv/>
       <ContactForm/>
-      </div>
+     
+     
+      </Container>
       
     );
   }
