@@ -1,4 +1,5 @@
 import React from 'react';
+import './images/brandName.png';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class Navv extends React.Component {
@@ -20,7 +21,12 @@ export default class Navv extends React.Component {
     return (
       <div>
         <Navbar color="primary" light style={{paddingBottom: '20px'}}>
-          <NavbarBrand href="/" className="mr-auto">Josh Romero</NavbarBrand>
+          <NavbarBrand href="/" 
+          className="mr-auto"><img 
+          src={require('./images/brandName.png')
+           }style={{
+             width: '10%',
+           }}/>Josh Romero</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

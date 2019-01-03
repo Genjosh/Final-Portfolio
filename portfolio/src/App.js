@@ -1,4 +1,5 @@
-import React, { Component,} from 'react' 
+import React, { Component, } from 'react';
+import { Container, } from 'reactstrap';
 import './App.css';
 import Navv from './components/NavBar';
 import Tron from './components/Jumbotron';
@@ -11,17 +12,21 @@ import Bottom from './components/Footer';
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{backgroundImage:'./components/images/wallpaper.jpg', backgroundSize:'flex' }}>
-      
-      <Navv/>
-      <br/>
-      <Tron/>
-      <br/>
-      <Projects/> <Recent/>
-      <br/>
-      <Bottom/>
-      </div>
-      
+      <Container className="App" 
+      style={{ 
+        backgroundImage: './components/images/wallpaper.jpg', 
+        justifyContent: 'center',
+        }}>
+
+        <Navv />
+        <br />
+        <Tron />
+        <br />
+        <Projects /> <Recent />
+        <br />
+        <Bottom />
+      </Container>
+
     );
   }
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import {Route, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import About from './pages/About';
 import Contact from './pages/Contact'
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'reactstrap';
+import  'reactstrap';
 
 const routing = (
     <Router>
