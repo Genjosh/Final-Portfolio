@@ -9,6 +9,7 @@ class About extends Component {
       <div className="App">
       
       <Navv/>
+      <br/>
       <AboutBox/>  
       </div>
       

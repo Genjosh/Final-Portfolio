@@ -4,18 +4,22 @@ import Navv from './components/NavBar';
 import Tron from './components/Jumbotron';
 import Projects from './components/projects';
 import Recent from './components/Recent';
-import Contact from './pages/Contact';
+import './components/images/wallpaper.jpg';
+import Bottom from './components/Footer';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{backgroundImage:'./components/images/wallpaper.jpg', backgroundSize:'flex' }}>
       
       <Navv/>
+      <br/>
       <Tron/>
+      <br/>
       <Projects/> <Recent/>
-
+      <br/>
+      <Bottom/>
       </div>
       
     );

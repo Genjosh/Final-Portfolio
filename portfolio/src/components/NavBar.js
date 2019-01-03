@@ -19,7 +19,7 @@ export default class Navv extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="black" light>
+        <Navbar color="primary" light style={{paddingBottom: '20px'}}>
           <NavbarBrand href="/" className="mr-auto">Josh Romero</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
