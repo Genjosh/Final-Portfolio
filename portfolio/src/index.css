@@ -1,5 +1,5 @@
 body {
-  background-color: indianred;
+  background-color: blue;
   justify-content: center;
   align-items: center;
   margin: 0%;
@@ -18,6 +18,11 @@ code {
 
 
 html {
-align-content: center;  
+align-content: center;
+background-image: url('./components/images/code.jpg');
+}
 
+.whole{
+  background-color: black;
+  background-image: url('./components/images/code.jpg');
 }

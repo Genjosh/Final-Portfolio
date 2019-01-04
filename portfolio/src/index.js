@@ -11,7 +11,7 @@ import  'reactstrap';
 
 const routing = (
     <Router>
-        <div>
+        <div className='whole'>
             <Route exact path="/" component={App} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
