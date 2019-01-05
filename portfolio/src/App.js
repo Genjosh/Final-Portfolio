@@ -1,5 +1,5 @@
 import React, { Component, } from 'react';
-import { Container, } from 'reactstrap';
+import { Container,Row, Col } from 'reactstrap';
 import './App.css';
 import Navv from './components/NavBar';
 import Tron from './components/Jumbotron';
@@ -17,14 +17,23 @@ class App extends Component {
         backgroundImage: './components/images/wallpaper.jpg', 
         justifyContent: 'center',
         }}>
+        <Navv/>
+        <br/>
+        <Tron/>
+        <br/>
+        <wrapper>
+          <Row>
+            <Col><h1><strong>Projects</strong></h1></Col>
+            <Col>Recent</Col>
+          </Row>
+          <Row>
+            <Col><Projects/></Col>
+            <Col><Recent/></Col>
+          </Row>
 
-        <Navv />
-        <br />
-        <Tron />
-        <br />
-        <Projects /> <Recent />
-        <br />
-        <Bottom />
+        </wrapper>
+        <br/>
+        <Bottom/>
       </Container>
 
     );
